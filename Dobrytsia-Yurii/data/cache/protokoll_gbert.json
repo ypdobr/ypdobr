@@ -1,0 +1,87 @@
+{
+  "model": "deepset/gbert-base",
+  "seed": 1977,
+  "lr": 2e-05,
+  "batch": 16,
+  "epochs": 3,
+  "max_len": 128,
+  "warmup": 0.1,
+  "weight_decay": 0.01,
+  "n_train": 16911,
+  "n_train_full": 33850,
+  "n_questions_train": 160,
+  "torch": "2.14.0+cpu",
+  "transformers": "4.57.6",
+  "cpu": "x86_64",
+  "threads": 4,
+  "resumes": 0,
+  "epochs_log": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6064529204379869,
+      "train_seconds": 2813.7,
+      "dev": {
+        "macro_f1": 0.7287,
+        "accuracy": 0.729
+      },
+      "new_comments": {
+        "macro_f1": 0.733,
+        "accuracy": 0.7333
+      },
+      "new_questions": {
+        "macro_f1": 0.7203,
+        "accuracy": 0.7251
+      },
+      "new_topics": {
+        "macro_f1": 0.7174,
+        "accuracy": 0.7174
+      },
+      "eval_seconds": 434.8
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.4343818054871956,
+      "train_seconds": 2685.7,
+      "dev": {
+        "macro_f1": 0.7491,
+        "accuracy": 0.7492
+      },
+      "new_comments": {
+        "macro_f1": 0.7528,
+        "accuracy": 0.7531
+      },
+      "new_questions": {
+        "macro_f1": 0.7232,
+        "accuracy": 0.7283
+      },
+      "new_topics": {
+        "macro_f1": 0.7326,
+        "accuracy": 0.7326
+      },
+      "eval_seconds": 470.9
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.28208879800116893,
+      "train_seconds": 2618.1,
+      "dev": {
+        "macro_f1": 0.7544,
+        "accuracy": 0.7544
+      },
+      "new_comments": {
+        "macro_f1": 0.7654,
+        "accuracy": 0.7654
+      },
+      "new_questions": {
+        "macro_f1": 0.7143,
+        "accuracy": 0.7175
+      },
+      "new_topics": {
+        "macro_f1": 0.7262,
+        "accuracy": 0.7265
+      },
+      "eval_seconds": 468.9
+    }
+  ],
+  "total_seconds": 9492.1
+}

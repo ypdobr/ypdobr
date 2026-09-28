@@ -1,0 +1,15 @@
+{
+ "model": "roberta-base",
+ "lr": 2e-05,
+ "batch": 16,
+ "epochs": 4,
+ "max_len": 128,
+ "seed": 1977,
+ "loss": [
+  1.0136,
+  0.7661,
+  0.5592,
+  0.4213
+ ],
+ "train_seconds": 1856.5
+}
